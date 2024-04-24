@@ -19,3 +19,10 @@ class Automovil():
         velocidad_automovil -= 10
         print(f"El automovil va a {velocidad_automovil}")
         self.velocidad = velocidad_automovil
+
+
+prius = Automovil('Toyota', '2024', 'Rojo')
+prius.acelerar()
+prius.acelerar()
+prius.acelerar()
+prius.frenar()
